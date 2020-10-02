@@ -23,7 +23,8 @@ bool operand(char x)
 {
     if(x == '+' || x == '-' || x == '*'|| x == '/')
         return true;
-    return false;
+    else 
+        return false;
 }    
 
 void postfix_to_infix(char postfix[])
